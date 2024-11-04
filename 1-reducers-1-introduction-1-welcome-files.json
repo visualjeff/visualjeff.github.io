@@ -1,0 +1,1 @@
+{"/reducer.js":"// Sample reducer\nexport function counterReducer(state, action) {\n  switch (action.type) {\n      case 'INCREMENT':\n          return { ...state, count: state.count + 1 };\n      case 'DECREMENT':\n          return { ...state, count: state.count - 1 };\n      default:\n          return state;\n  }\n}\n"}
